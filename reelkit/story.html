@@ -299,7 +299,7 @@ function sceneHTML(sc,lt,t,idx,n){
     const top=sc.flipVisTop||170, Hh=1920-top-(tb+th+90);
     vTop=top; tPos=`top:auto;bottom:${tb}px`; vBox=`height:${Hh}px;display:flex;flex-direction:column;justify-content:center;`;
   }
-  if(L==='poster'){tTop=sc.top||(sc.visual?230:560); vTop=(sc.visTop||820)+130; vXf=` translateX(60px) rotate(-4deg) scale(.84)`}
+  if(L==='poster'){tTop=sc.top||(sc.visual?230:560); vTop=(sc.visTop||820)+130; vXf=` translateX(-40px) rotate(-3deg) scale(.86)`}
   h+=textBlock(sc.lines,lt,tTop,sc.textAt||0,sc.gap||.26,tPos);
   if(sc.visual){const vp=ap(lt,.2,.55);const bob=Math.sin(lt*1.6)*6;const dy=L==='flip'?-(1-vp)*120:(1-vp)*120;h+=`<div class="vis" style="top:${vTop}px;${vBox}opacity:${vp};transform:translateY(${dy+bob}px) rotate(${(1-vp)*3}deg)${vXf}">${V[sc.visual.type](sc.visual,lt)}</div>`}
   (sc.stickers||[]).forEach(s=>{const p=ap(lt,s.at||1,.45);h+=`<div class="sticker emo" style="left:${s.x}px;top:${s.y}px;font-size:${s.size||110}px;opacity:${clamp(p*2)};transform:scale(${.4+.6*EB(p)}) rotate(${(s.rot||0)+Math.sin(lt*3+s.x)*6}deg)">${s.emoji}</div>`});
