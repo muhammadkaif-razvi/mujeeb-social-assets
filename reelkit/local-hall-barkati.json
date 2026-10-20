@@ -1,0 +1,456 @@
+{
+ "title": "Function hall — Instagram kaafi nahi",
+ "scenes": [
+  {
+   "dur": 4.6,
+   "bg": "light",
+   "lines": [
+    [
+     [
+      "Aap sochte ho…",
+      ""
+     ]
+    ],
+    [
+     [
+      "Instagram",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "kaafi hai.",
+      ""
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "profile",
+    "handle": "@yourhall.events",
+    "bio": "Function Hall · Hyderabad",
+    "initial": "Y"
+   },
+   "visTop": 860,
+   "top": 270,
+   "pills": [
+    {
+     "text": "Function hall owners 👇",
+     "y": 140,
+     "at": 0.0,
+     "hot": true
+    }
+   ]
+  },
+  {
+   "dur": 3.6,
+   "bg": "blue",
+   "top": 700,
+   "lines": [
+    [
+     [
+      "asal mein,",
+      ""
+     ]
+    ],
+    [
+     [
+      "customer pehle",
+      ""
+     ]
+    ],
+    [
+     [
+      "Google",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "karta hai.",
+      ""
+     ]
+    ]
+   ],
+   "stickers": [
+    {
+     "emoji": "🔍",
+     "x": 800,
+     "y": 1180,
+     "size": 150,
+     "at": 1.2,
+     "rot": -10
+    }
+   ]
+  },
+  {
+   "dur": 5.6,
+   "bg": "light",
+   "lines": [
+    [
+     [
+      "shaadi ki date fix hote hi",
+      ""
+     ]
+    ],
+    [
+     [
+      "search",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "search",
+    "query": "function hall near me",
+    "resultsAt": 2.0,
+    "results": [
+     {
+      "title": "Competitor Banquet Hall",
+      "sub": "Website · Photos · Rates · Visit book karein"
+     },
+     {
+      "title": "Doosra Function Hall",
+      "sub": "Website · 500 guests capacity · Location"
+     },
+     {
+      "title": "Aapka hall?",
+      "sub": "Website nahi mili",
+      "dim": true
+     }
+    ]
+   },
+   "visTop": 780,
+   "stickers": [
+    {
+     "emoji": "🤔",
+     "x": 860,
+     "y": 560,
+     "size": 120,
+     "at": 1.4
+    }
+   ]
+  },
+  {
+   "dur": 6.0,
+   "bg": "light",
+   "lines": [
+    [
+     [
+      "Instagram pe ",
+      ""
+     ],
+     [
+      "DM",
+      "big"
+     ],
+     [
+      " aaya…",
+      ""
+     ]
+    ],
+    [
+     [
+      "reply ",
+      ""
+     ],
+     [
+      "2 din baad.",
+      "big"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "chat",
+    "name": "yourhall.events",
+    "status": "Business account",
+    "initial": "Y",
+    "stamp": "2 DIN BAAD",
+    "stampAt": 3.3,
+    "minH": 440,
+    "messages": [
+     {
+      "text": "Bhaiya 15 Dec ka rate kya hai?",
+      "me": true,
+      "meta": "9:41 PM · Seen",
+      "at": 0.7
+     },
+     {
+      "divider": "2 din baad",
+      "at": 2.2
+     },
+     {
+      "text": "Ji bataiye",
+      "meta": "10:12 AM",
+      "at": 2.7
+     }
+    ]
+   },
+   "visTop": 760,
+   "shakeAt": 3.3,
+   "stickers": [
+    {
+     "emoji": "😩",
+     "x": 860,
+     "y": 560,
+     "size": 120,
+     "at": 3.5
+    }
+   ]
+  },
+  {
+   "dur": 5.2,
+   "bg": "light",
+   "lines": [
+    [
+     [
+      "tab tak woh",
+      ""
+     ]
+    ],
+    [
+     [
+      "doosra hall",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "book kar chuka.",
+      ""
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "tabs",
+    "tabs": [
+     "Instagram",
+     "Competitor Hall — website"
+    ],
+    "oldHeadline": "DM ka wait…",
+    "chip": "Function hall",
+    "headline": "Photos, capacity aur rates — sab ek page pe",
+    "sub": "Date check karein, visit book karein.",
+    "button": "Visit book karein",
+    "toast": "Visit booked",
+    "toastAt": 2.6
+   },
+   "visTop": 880,
+   "stickers": [
+    {
+     "emoji": "😬",
+     "x": 870,
+     "y": 600,
+     "size": 120,
+     "at": 2.8
+    }
+   ]
+  },
+  {
+   "dur": 6.2,
+   "bg": "light",
+   "lines": [
+    [
+     [
+      "ek minute,",
+      ""
+     ]
+    ],
+    [
+     [
+      "hisaab",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "lagao.",
+      ""
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "calc",
+    "title": "Apne numbers lagao",
+    "chip": "Nuksaan",
+    "rows": [
+     "Har mahine chhooti enquiries",
+     "Unme se kitni booking banti",
+     "Ek booking ki kamaai",
+     "12 mahine"
+    ],
+    "result": "Jo paisa doosre hall ko gaya 💸",
+    "icons": [
+     "📩",
+     "🤝",
+     "💰",
+     "📅"
+    ],
+    "resultLabel": "Nuksaan"
+   },
+   "visTop": 880
+  },
+  {
+   "dur": 7.6,
+   "bg": "light",
+   "top": 250,
+   "lines": [
+    [
+     [
+      "achhi website",
+      ""
+     ]
+    ],
+    [
+     [
+      "teen kaam",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "karti hai.",
+      ""
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "list",
+    "at": 1.0,
+    "step": 1.7,
+    "items": [
+     [
+      "Google pe dikhti hai",
+      "jab koi “function hall near me” search kare"
+     ],
+     [
+      "Turant jawab",
+      "rates, photos, capacity — bina wait ke"
+     ],
+     [
+      "Bharosa banati hai",
+      "asli photos, location, reviews — ek jagah"
+     ]
+    ]
+   },
+   "visTop": 800,
+   "pills": [
+    {
+     "text": "📌 Save karo — baad mein kaam aayega",
+     "y": 1640,
+     "at": 5.2,
+     "hot": true
+    }
+   ]
+  },
+  {
+   "dur": 3.8,
+   "bg": "blue",
+   "top": 680,
+   "lines": [
+    [
+     [
+      "Website sirf",
+      ""
+     ]
+    ],
+    [
+     [
+      "khoobsurat nahi,",
+      ""
+     ]
+    ],
+    [
+     [
+      "kamaane wali",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "honi chahiye.",
+      ""
+     ]
+    ]
+   ],
+   "pills": [
+    {
+     "text": "Kisi hall owner ko bhejo 🤝",
+     "y": 1250,
+     "at": 1.6,
+     "x": 250,
+     "rot": 2
+    }
+   ]
+  },
+  {
+   "dur": 7.2,
+   "bg": "light",
+   "brand": true,
+   "brandAt": 4.4,
+   "lines": [
+    [
+     [
+      "comment mein",
+      ""
+     ]
+    ],
+    [
+     [
+      "“WEBSITE”",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "likho.",
+      ""
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "comment",
+    "keyword": "WEBSITE",
+    "sendAt": 2.0,
+    "noteAt": 2.5,
+    "note": [
+     [
+      [
+       "main ",
+       ""
+      ],
+      [
+       "free",
+       "big"
+      ],
+      [
+       " mein bataunga,",
+       ""
+      ]
+     ],
+     [
+      [
+       "aapke hall ko",
+       ""
+      ]
+     ],
+     [
+      [
+       "kaisi website",
+       "big"
+      ],
+      [
+       " chahiye.",
+       ""
+      ]
+     ]
+    ]
+   },
+   "visTop": 820,
+   "stickers": [],
+   "brandWide": true,
+   "brandLogo": "barkati-logo-tight.png",
+   "brandH": 64
+  }
+ ],
+ "theme": "local"
+}

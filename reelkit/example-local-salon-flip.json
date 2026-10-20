@@ -1,0 +1,387 @@
+{
+ "theme": "local",
+ "style": "bold",
+ "layout": "flip",
+ "transition": "slide",
+ "scenes": [
+  {
+   "dur": 5.6,
+   "bg": "light",
+   "pills": [
+    {
+     "text": "Salon owners 👇",
+     "y": 140,
+     "at": 0,
+     "hot": true
+    }
+   ],
+   "lines": [
+    [
+     [
+      "Shaadi season mein",
+      ""
+     ]
+    ],
+    [
+     [
+      "bridal",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "booking kahan se aati hai?",
+      ""
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "search",
+    "query": "bridal makeup near me",
+    "resultsAt": 2.0,
+    "results": [
+     {
+      "title": "Competitor Salon",
+      "sub": "Website · Bridal packages · Book trial"
+     },
+     {
+      "title": "Doosra Studio",
+      "sub": "Photos · Reviews · WhatsApp"
+     },
+     {
+      "title": "Aapka salon?",
+      "sub": "Sirf Instagram page",
+      "dim": true
+     }
+    ]
+   },
+   "vo": "Shaadi season mein bridal booking kahan se aati hai?"
+  },
+  {
+   "dur": 3.8,
+   "bg": "blue",
+   "top": 640,
+   "lines": [
+    [
+     [
+      "Customer ne search kiya…",
+      ""
+     ]
+    ],
+    [
+     [
+      "aap ",
+      ""
+     ],
+     [
+      "mile",
+      "big"
+     ],
+     [
+      " hi nahi.",
+      ""
+     ]
+    ]
+   ],
+   "stickers": [
+    {
+     "emoji": "🔍",
+     "x": 800,
+     "y": 1250,
+     "size": 150,
+     "at": 1.0,
+     "rot": -10
+    }
+   ],
+   "vo": "Customer ne search kiya... aur aap mile hi nahi."
+  },
+  {
+   "dur": 6.0,
+   "bg": "light",
+   "shakeAt": 3.1,
+   "lines": [
+    [
+     [
+      "phir bhi Instagram pe",
+      ""
+     ]
+    ],
+    [
+     [
+      "DM",
+      "accent-ul"
+     ],
+     [
+      " aaya…",
+      ""
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "chat",
+    "name": "yoursalon.hyd",
+    "status": "Business account",
+    "initial": "Y",
+    "stamp": "NO REPLY",
+    "stampAt": 3.0,
+    "minH": 420,
+    "messages": [
+     {
+      "text": "Hi, bridal package ka rate kya hai?",
+      "me": true,
+      "meta": "11:02 PM",
+      "at": 0.7
+     },
+     {
+      "text": "Trial bhi hota hai? 🙏",
+      "me": true,
+      "meta": "11:03 PM",
+      "at": 1.6
+     },
+     {
+      "divider": "Seen",
+      "at": 2.4
+     }
+    ]
+   },
+   "stickers": [
+    {
+     "emoji": "😶",
+     "x": 860,
+     "y": 1500,
+     "size": 120,
+     "at": 3.4
+    }
+   ],
+   "vo": "Phir bhi Instagram pe DM aaya. Rate pucha, trial pucha... aur koi reply nahi."
+  },
+  {
+   "dur": 5.4,
+   "bg": "light",
+   "lines": [
+    [
+     [
+      "subah tak woh",
+      ""
+     ]
+    ],
+    [
+     [
+      "trial",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "kahin aur book kar chuki thi.",
+      ""
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "tabs",
+    "tabs": [
+     "Instagram DM",
+     "Competitor Salon — website"
+    ],
+    "oldHeadline": "Seen 11:03 PM…",
+    "chip": "Bridal packages",
+    "headline": "Bridal, party, engagement — sab packages ek page pe",
+    "sub": "Trial book karein, WhatsApp pe confirm.",
+    "button": "Trial book karein",
+    "toast": "Trial booked",
+    "toastAt": 2.7
+   },
+   "vo": "Subah tak woh trial kahin aur book kar chuki thi."
+  },
+  {
+   "dur": 6.6,
+   "bg": "light",
+   "lines": [
+    [
+     [
+      "pehle vs",
+      ""
+     ]
+    ],
+    [
+     [
+      "baad",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "versus",
+    "leftIcon": "😩",
+    "rightIcon": "😍",
+    "left": {
+     "title": "PEHLE",
+     "items": [
+      "Rate ke liye DM ka wait",
+      "Photos sirf Instagram pe",
+      "Raat ki enquiry miss"
+     ]
+    },
+    "right": {
+     "title": "BAAD",
+     "items": [
+      "Packages ek page pe",
+      "Asli kaam ki gallery",
+      "WhatsApp button, ek tap"
+     ]
+    }
+   },
+   "vo": "Pehle: rate ke liye wait, photos sirf Instagram pe, raat ki enquiry miss. Baad mein: sab packages ek page pe, asli kaam ki gallery, aur WhatsApp pe ek tap."
+  },
+  {
+   "dur": 7.4,
+   "bg": "light",
+   "lines": [
+    [
+     [
+      "achhi salon website",
+      ""
+     ]
+    ],
+    [
+     [
+      "teen kaam",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "list",
+    "at": 1.0,
+    "step": 1.6,
+    "items": [
+     [
+      "Google pe dikhti hai",
+      "“bridal makeup near me” jaise search pe"
+     ],
+     [
+      "Packages saaf",
+      "rate aur trial ki jaankari pehle se"
+     ],
+     [
+      "Turant booking",
+      "WhatsApp pe ek tap"
+     ]
+    ]
+   },
+   "pills": [
+    {
+     "text": "📌 Save karo — baad mein kaam aayega",
+     "y": 1030,
+     "at": 5.4,
+     "hot": true
+    }
+   ],
+   "vo": "Achhi salon website teen kaam karti hai. Google pe dikhti hai. Packages saaf dikhati hai. Aur booking turant karwaati hai."
+  },
+  {
+   "dur": 4.0,
+   "bg": "blue",
+   "top": 620,
+   "lines": [
+    [
+     [
+      "Followers se booking nahi aati,",
+      ""
+     ]
+    ],
+    [
+     [
+      "bharosa",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "se aati hai.",
+      ""
+     ]
+    ]
+   ],
+   "pills": [
+    {
+     "text": "Kisi salon owner ko bhejo 🤝",
+     "y": 1250,
+     "at": 1.6,
+     "x": 230,
+     "rot": 2
+    }
+   ],
+   "vo": "Followers se booking nahi aati. Bharose se aati hai."
+  },
+  {
+   "dur": 7.2,
+   "bg": "light",
+   "brand": true,
+   "brandWide": true,
+   "brandLogo": "barkati-logo-tight.png",
+   "brandH": 64,
+   "brandAt": 4.4,
+   "lines": [
+    [
+     [
+      "comment mein",
+      ""
+     ]
+    ],
+    [
+     [
+      "“WEBSITE”",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "likho.",
+      ""
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "comment",
+    "keyword": "WEBSITE",
+    "sendAt": 2.0,
+    "noteAt": 2.5,
+    "note": [
+     [
+      [
+       "main ",
+       ""
+      ],
+      [
+       "free",
+       "big"
+      ],
+      [
+       " mein bataunga,",
+       ""
+      ]
+     ],
+     [
+      [
+       "aapke salon ko",
+       ""
+      ]
+     ],
+     [
+      [
+       "kaisi website",
+       "big"
+      ],
+      [
+       " chahiye.",
+       ""
+      ]
+     ]
+    ]
+   },
+   "vo": "Comment mein WEBSITE likho. Main free mein bataunga, aapke salon ko kaisi website chahiye."
+  }
+ ]
+}
