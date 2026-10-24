@@ -133,6 +133,14 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
 .L-poster .big{font-size:100px}
 .L-poster .vis{transform-origin:100% 0}
 .flash{position:absolute;inset:0;z-index:99;pointer-events:none}
+/* ===== decor + background variants (SPEC.decor / SPEC.bgx) ===== */
+.dz{position:absolute;pointer-events:none}
+.bgx-paper .blob,.bgx-paper .grid{display:none}
+.bgx-dots .blob{display:none}.bgx-dots .grid{background-image:radial-gradient(rgba(2,72,212,.18) 2.2px,transparent 2.6px);background-size:44px 44px}
+.bgx-mesh .grid{display:none}.bgx-mesh .blob{filter:blur(140px);opacity:1.4}
+.bgx-split .light{background:linear-gradient(180deg,var(--bg) 0 58%,#e8efff 58% 100%)}
+.s-dark.bgx-split .light{background:linear-gradient(180deg,#02173b 0 58%,#03035e 58% 100%)}
+
 </style></head>
 <body><div id="stage"></div>
 <script>
@@ -157,6 +165,27 @@ function bg(t,blue){
   return b.map(([x,y,s,c])=>`<div class="blob" style="left:${x-s/2}px;top:${y-s/2}px;width:${s}px;height:${s}px;background:${c}"></div>`).join('')+'<div class="grid"></div>';
 }
 function sparks(t,blue,brand){
+  const D=SPEC.decor||'stars';
+  if(D==='none') return '';
+  const col=blue?'rgba(255,255,255,.55)':(DARK?'rgba(255,255,255,.35)':(LOCAL?'#00C2FF':'#0099ff'));
+  const col2=blue?'#ffffff':(DARK?'#00C2FF':(LOCAL?'#0A1A3F':'#03035e'));
+  if(D==='shapes'){
+    const S=[[920,170,150,'c'],[150,1640,180,'s'],[960,1500,70,'c'],[110,260,60,'s']];
+    return S.map(([x,y,s,k],i)=>`<div class="dz" style="left:${x-s/2}px;top:${y-s/2}px;width:${s}px;height:${s}px;border:${i%2?6:8}px solid ${i%2?col2:col};border-radius:${k=='c'?'50%':'22px'};transform:rotate(${(k=='s'?1:0)*(t*18+i*30)}deg) scale(${1+.06*Math.sin(t*2+i)})"></div>`).join('');
+  }
+  if(D==='lines'){
+    let r='';for(let i=0;i<4;i++){const o=(t*40+i*70)%600;r+=`<div class="dz" style="right:${-220+i*58}px;top:${-160-o*0}px;width:44px;height:620px;background:${i%2?col2:col};opacity:${i%2?.9:.7};transform:rotate(38deg) translateY(${Math.sin(t+i)*20}px)"></div>`;}
+    for(let i=0;i<3;i++){r+=`<div class="dz" style="left:${-200+i*58}px;bottom:-200px;width:44px;height:560px;background:${i%2?col:col2};opacity:.8;transform:rotate(38deg) translateY(${Math.cos(t+i)*20}px)"></div>`;}
+    return r;
+  }
+  if(D==='dots'){
+    let r='';for(let i=0;i<12;i++){const x=(i*173)%1000+40,y=(i*331)%1800+60,s=10+(i%4)*8;r+=`<div class="dz" style="left:${x}px;top:${y+10*Math.sin(t*1.5+i)}px;width:${s}px;height:${s}px;border-radius:50%;background:${i%3?col:col2};opacity:.75"></div>`;}
+    return r;
+  }
+  if(D==='brackets'){
+    const b=(x,y,s,rot,c)=>`<div class="dz" style="left:${x}px;top:${y}px;font:900 ${s}px/1 IN,sans-serif;color:${c};transform:rotate(${rot}deg) translateY(${8*Math.sin(t*1.6+x)}px)">${'&lt;/&gt;'}</div>`;
+    return b(780,90,120,-8,col)+b(60,1600,140,6,col2)+b(870,1450,70,12,col);
+  }
   const c=blue?'#ffffff':'#0b3fe0';
   const S=brand?[[900,150,170,1],[970,360,50,.9],[930,1560,170,1],[760,1720,46,.8]]:[[900,150,170,1],[970,360,50,.9],[60,1560,190,1],[300,1720,60,.85],[960,1320,40,.7]];
   return S.map(([x,y,s,o],i)=>`<div class="spark" style="--s:${s}px;left:${x-s/2}px;top:${y-s/2}px;color:${DARK&&!blue?(i==1?'#00C2FF':'#ffffff'):(DARK&&blue?'#0A1A3F':(LOCAL&&!blue?(i==1?'#00C2FF':'#0A1A3F'):(LOCAL&&blue&&i==1?'#00C2FF':c)))};opacity:${o};transform:rotate(${t*25+i*20}deg) scale(${1+.08*Math.sin(t*2.4+i)})">${STAR}</div>`).join('');
@@ -321,6 +350,6 @@ window.renderAt = function(t){
   if(TR==='zoom'){for(const c of cut){const d=t-c;if(d>-.22&&d<.3){const p=d<0?(d+.22)/.22:1-d/.3;const r=d<0?E((d+.22)/.22)*1500:1500;html+=`<div class="flash" style="background:radial-gradient(circle at 50% 50%, ${C1} 0, ${C2} ${r*.6}px, rgba(0,0,0,0) ${r}px);opacity:${clamp(p)}"></div>`}}}
   if(TR==='swipe') for(const c of cut){const d=t-c; if(d>-.24&&d<.24){const p=(d+.24)/.48;const x=-2200+p*3800;
     html+=`<div style="position:absolute;inset:0;z-index:99"><div style="position:absolute;top:-200px;height:2400px;left:${x}px;width:1500px;transform:skewX(-24deg);background:linear-gradient(90deg,${LOCAL?'#00C2FF':'#0099ff'} 0 14%,${LOCAL?'#0A1A3F':'#0248d4'} 14% 86%,${LOCAL?'#00C2FF':'#0099ff'} 86%)"></div></div>`}}
-  const st=document.getElementById('stage'); st.className=(LOCAL?'local ':'')+'s-'+(SPEC.style||'editorial'); st.innerHTML=html;
+  const st=document.getElementById('stage'); st.className=(LOCAL?'local ':'')+'s-'+(SPEC.style||'editorial')+' bgx-'+(SPEC.bgx||'blobs'); st.innerHTML=html;
 };
 </script></body></html>

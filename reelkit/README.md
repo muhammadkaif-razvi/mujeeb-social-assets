@@ -58,6 +58,14 @@ Also vary: number of scenes (7–11), mockups used, sticker emoji, pill wording,
 ### Combining for a batch
 Every reel in a batch gets a DIFFERENT style + layout + transition combination (e.g. bold/flip/slide, dark/center/zoom, editorial/poster/swipe). Within one reel you can switch layout on 1–2 scenes for rhythm.
 
+### Decor + background (top-level "decor", "bgx") — rotate these too
+- "decor": "stars" (default sparkles) | "shapes" (outline circles/squares) | "lines" (diagonal brand stripes) | "dots" (floating dots) | "brackets" (</> code marks) | "none".
+- "bgx": "blobs" (default soft colour blobs + grid) | "paper" (flat, no blobs) | "dots" (dot grid) | "mesh" (big soft gradient) | "split" (two-tone canvas).
+- A batch must not repeat the same style + layout + transition + decor + bgx combination, and must not reuse last week's combinations (check the log). Never use "stars" + "blobs" two reels in a row.
+
+### Short reels (15–30 s) — use THIS kit too
+4–5 scenes, 1 idea, punchy. Same variety rules (style/layout/transition/decor/bgx), different from the story reels that week. reel_renderer.py is retired for weekly content (it only has one look).
+
 ## Sound (audio.py) — NO MUSIC, EVER
 - `python3 audio.py mix spec.json silent.mp4 out.mp4 [vo_aligned.wav]` builds a sound-effect track that follows the scene timings: whoosh on every cut, keyboard typing while search/URL/comment text types, mouse click on taps/send, bubble pop per chat message, thud on stamps & shakes, tick per list/calc row, ding on toasts/brand. All synthesised (no samples, no licences). Peak-limited, AAC.
 - Never add music or suggest "trending audio". If a caption reminder is needed: "sound already added — post as is".
