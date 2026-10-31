@@ -1,0 +1,280 @@
+{
+ "theme": "global",
+ "style": "editorial",
+ "layout": "flip",
+ "transition": "zoom",
+ "decor": "lines",
+ "bgx": "split",
+ "title": "I audited my own homepage",
+ "scenes": [
+  {
+   "dur": 4.6,
+   "bg": "light",
+   "lines": [
+    [
+     [
+      "I audited",
+      ""
+     ]
+    ],
+    [
+     [
+      "my own",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "homepage.",
+      ""
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "search",
+    "query": "mujeeb technologies",
+    "resultsAt": 1.6,
+    "results": [
+     {
+      "title": "Mujeeb Technologies",
+      "sub": "Mujeeb Technologies is an engineer-led studio for B2B SaaS teams: we rebuild slow marketing pages …"
+     }
+    ]
+   },
+   "pills": [
+    {
+     "text": "Real work, this week 🔍",
+     "y": 1030,
+     "at": 0.0,
+     "hot": true
+    }
+   ],
+   "vo": "This week, I audited my own homepage.",
+   "textBottom": 420,
+   "minDur": 4.6
+  },
+  {
+   "dur": 3.6,
+   "bg": "blue",
+   "layout": "center",
+   "top": 640,
+   "lines": [
+    [
+     [
+      "Same checklist",
+      ""
+     ]
+    ],
+    [
+     [
+      "I'd use on",
+      ""
+     ]
+    ],
+    [
+     [
+      "yours.",
+      "accent"
+     ]
+    ]
+   ],
+   "vo": "Same checklist I'd use on yours.",
+   "minDur": 3.6
+  },
+  {
+   "dur": 6.4,
+   "bg": "light",
+   "layout": "stack",
+   "top": 230,
+   "lines": [
+    [
+     [
+      "Passed",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "list",
+    "at": 0.8,
+    "step": 2.0,
+    "items": [
+     [
+      "One main button",
+      "plus a quieter second option"
+     ],
+     [
+      "No made-up proof",
+      "no fake logos, no fake quotes"
+     ]
+    ]
+   },
+   "visTop": 560,
+   "stickers": [
+    {
+     "emoji": "✅",
+     "x": 820,
+     "y": 200,
+     "size": 120,
+     "at": 0.6
+    }
+   ],
+   "vo": "Passed: one main button. No made-up proof.",
+   "minDur": 6.4
+  },
+  {
+   "dur": 7.2,
+   "bg": "light",
+   "lines": [
+    [
+     [
+      "Failed:",
+      ""
+     ]
+    ],
+    [
+     [
+      "the description",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "234 characters.",
+      "big"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "search",
+    "query": "mujeeb technologies",
+    "resultsAt": 1.0,
+    "results": [
+     {
+      "title": "Mujeeb Technologies",
+      "sub": "…we rebuild slow marketing pages …   ✂️ the free-audit offer got cut"
+     },
+     {
+      "title": "Logo alt text",
+      "sub": "just says “logo”",
+      "dim": true
+     }
+    ]
+   },
+   "shakeAt": 2.2,
+   "vo": "Failed: my search description runs two hundred thirty-four characters, so the free-audit offer gets cut.",
+   "textBottom": 420,
+   "minDur": 7.2
+  },
+  {
+   "dur": 6.0,
+   "bg": "light",
+   "layout": "stack",
+   "top": 230,
+   "lines": [
+    [
+     [
+      "Before / after",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "title": "Before",
+     "items": [
+      "234 characters",
+      "Offer at the very end",
+      "Alt text: “logo”"
+     ]
+    },
+    "right": {
+     "title": "After",
+     "items": [
+      "Under 155 characters",
+      "Offer up front",
+      "Alt text: brand name"
+     ]
+    },
+    "leftIcon": "😬",
+    "rightIcon": "👌"
+   },
+   "visTop": 560,
+   "pills": [
+    {
+     "text": "📌 Save for your own check",
+     "y": 1660,
+     "at": 4.4,
+     "hot": true
+    }
+   ],
+   "vo": "And my logo's alt text just says logo.",
+   "minDur": 6.0
+  },
+  {
+   "dur": 3.8,
+   "bg": "blue",
+   "layout": "center",
+   "top": 640,
+   "lines": [
+    [
+     [
+      "Small things.",
+      ""
+     ]
+    ],
+    [
+     [
+      "Easy to miss",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "on your own site.",
+      ""
+     ]
+    ]
+   ],
+   "vo": "Small things. Easy to miss.",
+   "minDur": 3.8
+  },
+  {
+   "dur": 6.6,
+   "bg": "light",
+   "layout": "center",
+   "top": 560,
+   "brand": true,
+   "brandAt": 3.0,
+   "lines": [
+    [
+     [
+      "Want fresh eyes",
+      ""
+     ]
+    ],
+    [
+     [
+      "on yours?",
+      ""
+     ]
+    ],
+    [
+     [
+      "free audit",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "link in bio",
+      "big"
+     ]
+    ]
+   ],
+   "vo": "Want fresh eyes on yours? Link in bio.",
+   "minDur": 6.6
+  }
+ ]
+}

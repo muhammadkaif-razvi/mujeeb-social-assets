@@ -1,0 +1,213 @@
+{
+ "theme": "global",
+ "style": "dark",
+ "layout": "poster",
+ "transition": "swipe",
+ "decor": "brackets",
+ "bgx": "mesh",
+ "title": "Demo form fields",
+ "scenes": [
+  {
+   "dur": 4.2,
+   "bg": "light",
+   "lines": [
+    [
+     [
+      "Your buyer is",
+      ""
+     ]
+    ],
+    [
+     [
+      "ready",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "to talk.",
+      ""
+     ]
+    ],
+    [
+     [
+      "Then they see the form.",
+      "soft"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "browser",
+    "url": "yourproduct.com/demo",
+    "headline": "Book a demo",
+    "sub": "Name · Work email · Phone · Job title · Role · Team size · Budget · How did you hear about us? · Message",
+    "buttons": [
+     "Submit"
+    ]
+   },
+   "visTop": 760,
+   "pills": [
+    {
+     "text": "B2B SaaS founders 👀",
+     "y": 140,
+     "at": 0.0,
+     "hot": true
+    }
+   ]
+  },
+  {
+   "dur": 4.4,
+   "bg": "blue",
+   "top": 600,
+   "lines": [
+    [
+     [
+      "Every field",
+      ""
+     ]
+    ],
+    [
+     [
+      "must earn",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "its place.",
+      ""
+     ]
+    ]
+   ],
+   "pills": [
+    {
+     "text": "does it change who takes the call?",
+     "y": 1250,
+     "at": 1.6,
+     "x": 120,
+     "rot": -2
+    }
+   ]
+  },
+  {
+   "dur": 6.4,
+   "bg": "light",
+   "top": 230,
+   "lines": [
+    [
+     [
+      "Cut vs keep",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "title": "Cut",
+     "items": [
+      "Required phone",
+      "Job title + role",
+      "How did you hear?",
+      "Required message"
+     ]
+    },
+    "right": {
+     "title": "Keep",
+     "items": [
+      "Work email",
+      "Name",
+      "Company",
+      "One routing question"
+     ]
+    },
+    "leftIcon": "✂️",
+    "rightIcon": "✅"
+   },
+   "visTop": 560
+  },
+  {
+   "dur": 4.0,
+   "bg": "light",
+   "top": 640,
+   "lines": [
+    [
+     [
+      "Then let them",
+      ""
+     ]
+    ],
+    [
+     [
+      "pick a time",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "right there.",
+      ""
+     ]
+    ]
+   ],
+   "stickers": [
+    {
+     "emoji": "📅",
+     "x": 800,
+     "y": 1080,
+     "size": 140,
+     "at": 1.0
+    }
+   ]
+  },
+  {
+   "dur": 6.8,
+   "bg": "light",
+   "brand": true,
+   "brandAt": 4.0,
+   "lines": [
+    [
+     [
+      "comment",
+      ""
+     ]
+    ],
+    [
+     [
+      "“AUDIT”",
+      "accent"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "comment",
+    "keyword": "AUDIT",
+    "sendAt": 2.0,
+    "noteAt": 2.5,
+    "note": [
+     [
+      [
+       "and I'll record a ",
+       ""
+      ],
+      [
+       "free",
+       "big"
+      ]
+     ],
+     [
+      [
+       "video review of ",
+       ""
+      ],
+      [
+       "your demo flow.",
+       "big"
+      ]
+     ]
+    ]
+   },
+   "visTop": 700
+  }
+ ]
+}

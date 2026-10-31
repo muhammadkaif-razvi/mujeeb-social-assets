@@ -1,0 +1,249 @@
+{
+ "theme": "global",
+ "style": "bold",
+ "layout": "stack",
+ "transition": "slide",
+ "decor": "shapes",
+ "bgx": "paper",
+ "title": "Cover your logo test",
+ "scenes": [
+  {
+   "dur": 4.4,
+   "bg": "light",
+   "top": 300,
+   "lines": [
+    [
+     [
+      "Cover your logo.",
+      ""
+     ]
+    ],
+    [
+     [
+      "Read your",
+      ""
+     ]
+    ],
+    [
+     [
+      "headline.",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "browser",
+    "url": "yourproduct.com",
+    "headline": "The all-in-one platform for modern teams",
+    "sub": "Powerful. Flexible. Built to scale.",
+    "buttons": [
+     "Get started",
+     "Book a demo"
+    ]
+   },
+   "visTop": 820,
+   "pills": [
+    {
+     "text": "SaaS founders 👇",
+     "y": 140,
+     "at": 0.0,
+     "hot": true
+    }
+   ],
+   "vo": "Cover your logo. Read your headline.",
+   "minDur": 4.4
+  },
+  {
+   "dur": 3.6,
+   "bg": "blue",
+   "top": 640,
+   "lines": [
+    [
+     [
+      "Could a",
+      ""
+     ]
+    ],
+    [
+     [
+      "competitor",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "use it?",
+      ""
+     ]
+    ]
+   ],
+   "shakeAt": 1.4,
+   "vo": "Could a competitor use it?",
+   "minDur": 3.6
+  },
+  {
+   "dur": 4.2,
+   "bg": "light",
+   "top": 720,
+   "lines": [
+    [
+     [
+      "If yes, run",
+      ""
+     ]
+    ],
+    [
+     [
+      "5 tests",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "on your homepage.",
+      ""
+     ]
+    ]
+   ],
+   "stickers": [
+    {
+     "emoji": "⏱️",
+     "x": 820,
+     "y": 1080,
+     "size": 130,
+     "at": 1.0
+    }
+   ],
+   "vo": "Then run five quick tests.",
+   "minDur": 4.2
+  },
+  {
+   "dur": 14.0,
+   "bg": "light",
+   "top": 300,
+   "lines": [
+    [
+     [
+      "The",
+      ""
+     ]
+    ],
+    [
+     [
+      "5 tests",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "list",
+    "at": 0.8,
+    "step": 2.6,
+    "items": [
+     [
+      "Phone + mobile data",
+      "how long until the headline shows?"
+     ],
+     [
+      "5-second stranger test",
+      "can they say what it does?"
+     ],
+     [
+      "Count the buttons",
+      "more than two up top? warning"
+     ],
+     [
+      "Check every claim",
+      "is each one true and provable?"
+     ],
+     [
+      "Click your own CTA",
+      "finish the sign-up yourself"
+     ]
+    ]
+   },
+   "visTop": 600,
+   "pills": [
+    {
+     "text": "📌 Save this for Friday",
+     "y": 1700,
+     "at": 12.0,
+     "hot": true
+    }
+   ],
+   "vo": "Phone, on mobile data. A stranger, five seconds. Count the buttons. Check every claim. Then sign up yourself.",
+   "minDur": 14.0
+  },
+  {
+   "dur": 4.0,
+   "bg": "blue",
+   "top": 640,
+   "lines": [
+    [
+     [
+      "If even one fails,",
+      ""
+     ]
+    ],
+    [
+     [
+      "fix that",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "before any redesign.",
+      ""
+     ]
+    ]
+   ],
+   "pills": [
+    {
+     "text": "Send this to your co-founder 🤝",
+     "y": 1250,
+     "at": 1.8,
+     "x": 160,
+     "rot": 2
+    }
+   ],
+   "vo": "If one fails, fix that first.",
+   "minDur": 4.0
+  },
+  {
+   "dur": 6.6,
+   "bg": "light",
+   "top": 640,
+   "brand": true,
+   "brandAt": 3.0,
+   "lines": [
+    [
+     [
+      "The full homepage",
+      ""
+     ]
+    ],
+    [
+     [
+      "checklist",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "is one tap away:",
+      ""
+     ]
+    ],
+    [
+     [
+      "link in bio 👆",
+      "big"
+     ]
+    ]
+   ],
+   "vo": "Full checklist: link in bio.",
+   "minDur": 6.6
+  }
+ ]
+}
