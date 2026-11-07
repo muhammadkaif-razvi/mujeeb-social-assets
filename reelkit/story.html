@@ -184,7 +184,7 @@ function sparks(t,blue,brand){
   }
   if(D==='brackets'){
     const b=(x,y,s,rot,c)=>`<div class="dz" style="left:${x}px;top:${y}px;font:900 ${s}px/1 IN,sans-serif;color:${c};transform:rotate(${rot}deg) translateY(${8*Math.sin(t*1.6+x)}px)">${'&lt;/&gt;'}</div>`;
-    return b(780,90,120,-8,col)+b(60,1600,140,6,col2)+b(870,1450,70,12,col);
+    return b(780,90,120,-8,col)+(brand?b(700,1600,110,6,col2):b(60,1600,140,6,col2))+b(870,1450,70,12,col);
   }
   const c=blue?'#ffffff':'#0b3fe0';
   const S=brand?[[900,150,170,1],[970,360,50,.9],[930,1560,170,1],[760,1720,46,.8]]:[[900,150,170,1],[970,360,50,.9],[60,1560,190,1],[300,1720,60,.85],[960,1320,40,.7]];

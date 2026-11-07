@@ -1,0 +1,353 @@
+{
+ "theme": "global",
+ "style": "dark",
+ "layout": "stack",
+ "transition": "slide",
+ "decor": "dots",
+ "bgx": "blobs",
+ "title": "Freelancer vs agency",
+ "scenes": [
+  {
+   "dur": 5.0,
+   "bg": "light",
+   "top": 250,
+   "lines": [
+    [
+     [
+      "Two quotes.",
+      "big"
+     ]
+    ],
+    [
+     [
+      "One ",
+      ""
+     ],
+     [
+      "freelancer.",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "One agency.",
+      ""
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "chat",
+    "name": "Your inbox",
+    "status": "2 new quotes",
+    "initial": "✉",
+    "stamp": "WHICH ONE?",
+    "stampAt": 2.8,
+    "minH": 520,
+    "messages": [
+     {
+      "text": "Here's my quote for your new site 👋",
+      "meta": "Freelancer",
+      "at": 0.8
+     },
+     {
+      "text": "Our proposal is attached.",
+      "meta": "Agency",
+      "at": 1.7
+     }
+    ]
+   },
+   "visTop": 780,
+   "pills": [
+    {
+     "text": "SaaS founders 👇",
+     "y": 140,
+     "at": 0.0,
+     "hot": true
+    }
+   ],
+   "vo": "Two quotes. Freelancer or agency?",
+   "minDur": 5.0
+  },
+  {
+   "dur": 3.6,
+   "bg": "blue",
+   "layout": "center",
+   "top": 640,
+   "lines": [
+    [
+     [
+      "So you compare",
+      ""
+     ]
+    ],
+    [
+     [
+      "the price",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "and pick one.",
+      ""
+     ]
+    ]
+   ],
+   "shakeAt": 2.4,
+   "vo": "You compare prices. That's the trap.",
+   "minDur": 3.6
+  },
+  {
+   "dur": 4.2,
+   "bg": "light",
+   "top": 700,
+   "lines": [
+    [
+     [
+      "The real risk",
+      ""
+     ]
+    ],
+    [
+     [
+      "isn't the label.",
+      "big"
+     ]
+    ],
+    [
+     [
+      "It's the ",
+      ""
+     ],
+     [
+      "scope.",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "stickers": [
+    {
+     "emoji": "⚠️",
+     "x": 830,
+     "y": 1180,
+     "size": 130,
+     "at": 1.6,
+     "rot": -8
+    }
+   ],
+   "vo": "The real risk is the scope.",
+   "minDur": 4.2
+  },
+  {
+   "dur": 3.8,
+   "bg": "light",
+   "top": 700,
+   "lines": [
+    [
+     [
+      "Freelancer risk:",
+      "soft"
+     ]
+    ],
+    [
+     [
+      "one person.",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "One point of failure.",
+      ""
+     ]
+    ]
+   ],
+   "stickers": [
+    {
+     "emoji": "👤",
+     "x": 840,
+     "y": 1160,
+     "size": 130,
+     "at": 1.0,
+     "rot": 6
+    }
+   ],
+   "vo": "Freelancer risk: one point of failure.",
+   "minDur": 3.8
+  },
+  {
+   "dur": 3.8,
+   "bg": "light",
+   "top": 700,
+   "lines": [
+    [
+     [
+      "Agency risk:",
+      "soft"
+     ]
+    ],
+    [
+     [
+      "junior hands",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "you never met.",
+      ""
+     ]
+    ]
+   ],
+   "stickers": [
+    {
+     "emoji": "🏢",
+     "x": 840,
+     "y": 1160,
+     "size": 130,
+     "at": 1.0,
+     "rot": -6
+    }
+   ],
+   "vo": "Agency risk: junior hands.",
+   "minDur": 3.8
+  },
+  {
+   "dur": 11.0,
+   "bg": "light",
+   "top": 240,
+   "lines": [
+    [
+     [
+      "Ask either one",
+      ""
+     ]
+    ],
+    [
+     [
+      "3 questions",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "list",
+    "at": 0.8,
+    "step": 2.8,
+    "items": [
+     [
+      "Who builds it?",
+      "names, roles, any subcontracting"
+     ],
+     [
+      "Written scope first?",
+      "including what's NOT in it"
+     ],
+     [
+      "Who owns it all?",
+      "code + accounts: should be you"
+     ]
+    ]
+   },
+   "visTop": 620,
+   "pills": [
+    {
+     "text": "📌 Save for your next quote",
+     "y": 1640,
+     "at": 2.0
+    }
+   ],
+   "vo": "Ask both: who builds it? Can I see the scope? Who owns the code?",
+   "minDur": 11.0
+  },
+  {
+   "dur": 3.8,
+   "bg": "blue",
+   "layout": "center",
+   "top": 620,
+   "lines": [
+    [
+     [
+      "Same questions.",
+      ""
+     ]
+    ],
+    [
+     [
+      "Answers in",
+      ""
+     ]
+    ],
+    [
+     [
+      "writing.",
+      "accent"
+     ]
+    ]
+   ],
+   "pills": [
+    {
+     "text": "Forward to whoever's hiring 📩",
+     "y": 1250,
+     "at": 1.6,
+     "x": 150,
+     "rot": -2
+    }
+   ],
+   "vo": "Answers in writing.",
+   "minDur": 3.8
+  },
+  {
+   "dur": 6.8,
+   "bg": "light",
+   "top": 250,
+   "brand": true,
+   "brandAt": 4.0,
+   "lines": [
+    [
+     [
+      "Not sure which",
+      ""
+     ]
+    ],
+    [
+     [
+      "you need?",
+      "big"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "comment",
+    "keyword": "AUDIT",
+    "sendAt": 2.0,
+    "noteAt": 2.6,
+    "note": [
+     [
+      [
+       "I'll review ",
+       ""
+      ],
+      [
+       "your site",
+       "big"
+      ]
+     ],
+     [
+      [
+       "on video, ",
+       ""
+      ],
+      [
+       "free.",
+       "big"
+      ]
+     ]
+    ]
+   },
+   "visTop": 680,
+   "vo": "Not sure? Comment audit.",
+   "minDur": 6.8
+  }
+ ]
+}

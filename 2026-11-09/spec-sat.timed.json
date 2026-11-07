@@ -1,0 +1,329 @@
+{
+ "theme": "global",
+ "style": "editorial",
+ "layout": "center",
+ "transition": "swipe",
+ "decor": "brackets",
+ "bgx": "paper",
+ "title": "I tested my own audit form",
+ "scenes": [
+  {
+   "dur": 5.0,
+   "bg": "light",
+   "top": 250,
+   "lines": [
+    [
+     [
+      "I tested",
+      ""
+     ]
+    ],
+    [
+     [
+      "my own",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "audit form.",
+      ""
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "browser",
+    "url": "mujeebtechnologies.com/consultation",
+    "headline": "Request Your Free Video Audit",
+    "sub": "Package * · Name * · Company * · Website * · Notes",
+    "buttons": [
+     "Get My Free Video Audit"
+    ]
+   },
+   "visTop": 800,
+   "pills": [
+    {
+     "text": "Real work, this week 🔍",
+     "y": 140,
+     "at": 0.0,
+     "hot": true
+    }
+   ],
+   "vo": "I tested my own audit form.",
+   "minDur": 5.0
+  },
+  {
+   "dur": 6.4,
+   "bg": "light",
+   "layout": "stack",
+   "top": 230,
+   "lines": [
+    [
+     [
+      "Passed first",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "list",
+    "at": 0.8,
+    "step": 2.2,
+    "items": [
+     [
+      "Every field has a real label",
+      "tied to the input in code"
+     ],
+     [
+      "Errors get announced",
+      "with an email fallback"
+     ]
+    ]
+   },
+   "visTop": 560,
+   "vo": "Good news: real labels, announced errors.",
+   "minDur": 6.4
+  },
+  {
+   "dur": 4.4,
+   "bg": "light",
+   "top": 600,
+   "lines": [
+    [
+     [
+      "Finding #3",
+      "soft"
+     ]
+    ],
+    [
+     [
+      "a lonely",
+      ""
+     ]
+    ],
+    [
+     [
+      "asterisk.",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "Red *, but nothing says what it means.",
+      "soft"
+     ]
+    ]
+   ],
+   "stickers": [
+    {
+     "emoji": "✳️",
+     "x": 840,
+     "y": 1250,
+     "size": 120,
+     "at": 1.2,
+     "rot": 8
+    }
+   ],
+   "vo": "Finding three: a red star nobody explains.",
+   "minDur": 4.4
+  },
+  {
+   "dur": 4.6,
+   "bg": "light",
+   "top": 600,
+   "lines": [
+    [
+     [
+      "Finding #2",
+      "soft"
+     ]
+    ],
+    [
+     [
+      "no autofill.",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "No autocomplete hints for name, company or website.",
+      "soft"
+     ]
+    ]
+   ],
+   "stickers": [
+    {
+     "emoji": "⌨️",
+     "x": 840,
+     "y": 1250,
+     "size": 120,
+     "at": 1.2,
+     "rot": -6
+    }
+   ],
+   "vo": "Finding two: no autofill hints.",
+   "minDur": 4.6
+  },
+  {
+   "dur": 4.4,
+   "bg": "light",
+   "top": 600,
+   "lines": [
+    [
+     [
+      "Finding #1",
+      "soft"
+     ]
+    ],
+    [
+     [
+      "sign in first.",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "The form only shows after Google sign-in.",
+      "soft"
+     ]
+    ]
+   ],
+   "shakeAt": 1.4,
+   "vo": "Finding one: sign in before the form shows.",
+   "minDur": 4.4
+  },
+  {
+   "dur": 4.2,
+   "bg": "blue",
+   "top": 620,
+   "lines": [
+    [
+     [
+      "It blocks spam.",
+      ""
+     ]
+    ],
+    [
+     [
+      "It also adds",
+      ""
+     ]
+    ],
+    [
+     [
+      "a step.",
+      "accent"
+     ]
+    ]
+   ],
+   "pills": [
+    {
+     "text": "Worth it? I'm weighing it 🤔",
+     "y": 1250,
+     "at": 1.6,
+     "x": 170,
+     "rot": 2
+    }
+   ],
+   "vo": "It blocks spam. It adds a step.",
+   "minDur": 4.2
+  },
+  {
+   "dur": 3.8,
+   "bg": "light",
+   "top": 640,
+   "lines": [
+    [
+     [
+      "The first two?",
+      ""
+     ]
+    ],
+    [
+     [
+      "Small fixes.",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "On my list.",
+      ""
+     ]
+    ]
+   ],
+   "stickers": [
+    {
+     "emoji": "📝",
+     "x": 830,
+     "y": 1120,
+     "size": 130,
+     "at": 1.0,
+     "rot": -6
+    }
+   ],
+   "pills": [
+    {
+     "text": "📌 Save: check your own form",
+     "y": 1420,
+     "at": 1.2,
+     "x": 200
+    }
+   ],
+   "vo": "The first two are small fixes.",
+   "minDur": 3.8
+  },
+  {
+   "dur": 6.8,
+   "bg": "light",
+   "top": 250,
+   "brand": true,
+   "brandAt": 4.0,
+   "lines": [
+    [
+     [
+      "Same check",
+      ""
+     ]
+    ],
+    [
+     [
+      "on your signup form?",
+      "big"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "comment",
+    "keyword": "AUDIT",
+    "sendAt": 2.0,
+    "noteAt": 2.6,
+    "note": [
+     [
+      [
+       "and I'll test ",
+       ""
+      ],
+      [
+       "your form",
+       "big"
+      ]
+     ],
+     [
+      [
+       "in a ",
+       ""
+      ],
+      [
+       "free video audit.",
+       "big"
+      ]
+     ]
+    ]
+   },
+   "visTop": 680,
+   "vo": "Same check on yours? Comment audit.",
+   "minDur": 6.8
+  }
+ ]
+}

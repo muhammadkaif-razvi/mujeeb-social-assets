@@ -1,0 +1,186 @@
+{
+ "theme": "global",
+ "style": "bold",
+ "layout": "poster",
+ "transition": "zoom",
+ "decor": "none",
+ "bgx": "dots",
+ "title": "Features page so-that test",
+ "scenes": [
+  {
+   "dur": 4.4,
+   "bg": "light",
+   "top": 230,
+   "lines": [
+    [
+     [
+      "Your features page",
+      ""
+     ]
+    ],
+    [
+     [
+      "isn't a",
+      ""
+     ]
+    ],
+    [
+     [
+      "feature list.",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "browser",
+    "url": "yourproduct.com/features",
+    "headline": "Features",
+    "sub": "Dashboards · Workflows · Reports · Integrations · API · Alerts · Exports",
+    "buttons": [
+     "Start free trial"
+    ]
+   },
+   "visTop": 820,
+   "pills": [
+    {
+     "text": "SaaS founders 👇",
+     "y": 140,
+     "at": 0.0,
+     "hot": true
+    }
+   ]
+  },
+  {
+   "dur": 3.6,
+   "bg": "blue",
+   "top": 620,
+   "lines": [
+    [
+     [
+      "Run the",
+      ""
+     ]
+    ],
+    [
+     [
+      "“so that”",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "test.",
+      ""
+     ]
+    ]
+   ],
+   "pills": [
+    {
+     "text": "This lets you… so that…",
+     "y": 1250,
+     "at": 1.4,
+     "x": 170,
+     "rot": -2
+    }
+   ]
+  },
+  {
+   "dur": 6.6,
+   "bg": "light",
+   "layout": "stack",
+   "top": 230,
+   "lines": [
+    [
+     [
+      "Rename them",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "title": "Module names",
+     "items": [
+      "Reconciliation module",
+      "Flexible exports",
+      "Advanced workflows"
+     ]
+    },
+    "right": {
+     "title": "Outcomes",
+     "items": [
+      "Close the books faster",
+      "CSV, PDF or accounting export",
+      "Approvals without email chains"
+     ]
+    },
+    "leftIcon": "😐",
+    "rightIcon": "🎯"
+   },
+   "visTop": 560
+  },
+  {
+   "dur": 3.8,
+   "bg": "light",
+   "top": 640,
+   "lines": [
+    [
+     [
+      "Then show",
+      ""
+     ]
+    ],
+    [
+     [
+      "a screenshot",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "of each one.",
+      ""
+     ]
+    ]
+   ],
+   "stickers": [
+    {
+     "emoji": "🖼️",
+     "x": 820,
+     "y": 1120,
+     "size": 140,
+     "at": 1.0,
+     "rot": 6
+    }
+   ]
+  },
+  {
+   "dur": 5.8,
+   "bg": "light",
+   "top": 600,
+   "brand": true,
+   "brandAt": 3.0,
+   "lines": [
+    [
+     [
+      "Want yours checked?",
+      ""
+     ]
+    ],
+    [
+     [
+      "free audit",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "link in bio 👆",
+      "big"
+     ]
+    ]
+   ]
+  }
+ ]
+}
