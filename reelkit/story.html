@@ -170,7 +170,7 @@ function sparks(t,blue,brand){
   const col=blue?'rgba(255,255,255,.55)':(DARK?'rgba(255,255,255,.35)':(LOCAL?'#00C2FF':'#0099ff'));
   const col2=blue?'#ffffff':(DARK?'#00C2FF':(LOCAL?'#0A1A3F':'#03035e'));
   if(D==='shapes'){
-    const S=[[920,170,150,'c'],[150,1640,180,'s'],[960,1500,70,'c'],[110,260,60,'s']];
+    const S=brand?[[920,170,150,'c'],[930,1180,150,'s'],[960,1500,70,'c'],[110,260,60,'s']]:[[920,170,150,'c'],[150,1640,180,'s'],[960,1500,70,'c'],[110,260,60,'s']];
     return S.map(([x,y,s,k],i)=>`<div class="dz" style="left:${x-s/2}px;top:${y-s/2}px;width:${s}px;height:${s}px;border:${i%2?6:8}px solid ${i%2?col2:col};border-radius:${k=='c'?'50%':'22px'};transform:rotate(${(k=='s'?1:0)*(t*18+i*30)}deg) scale(${1+.06*Math.sin(t*2+i)})"></div>`).join('');
   }
   if(D==='lines'){

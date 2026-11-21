@@ -1,0 +1,325 @@
+{
+ "theme": "global",
+ "style": "bold",
+ "layout": "flip",
+ "transition": "zoom",
+ "decor": "shapes",
+ "bgx": "mesh",
+ "title": "3 signup page mistakes",
+ "scenes": [
+  {
+   "dur": 5.0,
+   "bg": "light",
+   "lines": [
+    [
+     [
+      "They clicked",
+      ""
+     ]
+    ],
+    [
+     [
+      "Start trial",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "then left.",
+      "big"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "browser",
+    "url": "yourproduct.com/signup",
+    "headline": "Create your account",
+    "sub": "Password needs 1 uppercase, 1 number, 1 symbol",
+    "buttons": [
+     "Create account"
+    ]
+   },
+   "pills": [
+    {
+     "text": "SaaS founders 👇",
+     "y": 1030,
+     "at": 0,
+     "hot": true
+    }
+   ],
+   "vo": "They clicked start trial. Then left.",
+   "textBottom": 430,
+   "minDur": 5.0
+  },
+  {
+   "dur": 6.2,
+   "bg": "light",
+   "lines": [
+    [
+     [
+      "Mistake #3",
+      "big"
+     ]
+    ],
+    [
+     [
+      "paste",
+      "accent-ul"
+     ],
+     [
+      " blocked",
+      "big"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "browser",
+    "url": "yourproduct.com/signup",
+    "headline": "Create your account",
+    "sub": "Pasting is disabled in this field",
+    "buttons": [
+     "Create account"
+    ],
+    "bubbles": [
+     [
+      770,
+      140,
+      100
+     ],
+     [
+      880,
+      320,
+      70
+     ],
+     [
+      800,
+      500,
+      56
+     ]
+    ],
+    "bubbleAt": 0.8,
+    "thought": "My password manager won't work?",
+    "thoughtAt": 1.8
+   },
+   "shakeAt": 1.0,
+   "stickers": [
+    {
+     "emoji": "🔒",
+     "x": 860,
+     "y": 1120,
+     "size": 110,
+     "at": 2.4
+    }
+   ],
+   "vo": "Mistake three: rules that block paste.",
+   "textBottom": 430,
+   "minDur": 6.2
+  },
+  {
+   "dur": 6.0,
+   "bg": "light",
+   "lines": [
+    [
+     [
+      "Mistake #2",
+      "big"
+     ]
+    ],
+    [
+     [
+      "one typo",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "wipes the form.",
+      ""
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "browser",
+    "url": "yourproduct.com/signup",
+    "headline": "Something went wrong",
+    "sub": "Please fill in the form again",
+    "buttons": [
+     "Try again"
+    ]
+   },
+   "shakeAt": 0.9,
+   "stickers": [
+    {
+     "emoji": "😤",
+     "x": 860,
+     "y": 1100,
+     "size": 110,
+     "at": 1.6
+    }
+   ],
+   "vo": "Two: one typo wipes the form.",
+   "textBottom": 430,
+   "minDur": 6.0
+  },
+  {
+   "dur": 7.0,
+   "bg": "light",
+   "layout": "stack",
+   "lines": [
+    [
+     [
+      "Mistake #1",
+      "big"
+     ]
+    ],
+    [
+     [
+      "ask everything",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "before any value.",
+      ""
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "title": "Cut from signup",
+     "items": [
+      "Phone number",
+      "Team size",
+      "Job title",
+      "Budget"
+     ]
+    },
+    "right": {
+     "title": "Keep",
+     "items": [
+      "Work email",
+      "Password or SSO"
+     ]
+    },
+    "leftIcon": "✂️",
+    "rightIcon": "✅"
+   },
+   "visTop": 760,
+   "vo": "One: asking everything before any value.",
+   "minDur": 7.0
+  },
+  {
+   "dur": 7.4,
+   "bg": "light",
+   "layout": "stack",
+   "lines": [
+    [
+     [
+      "the fix",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "in 3 lines",
+      "big"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "list",
+    "at": 0.9,
+    "step": 1.6,
+    "items": [
+     [
+      "Ask less",
+      "email + password or SSO, the rest later"
+     ],
+     [
+      "Allow paste + autofill",
+      "let password managers work"
+     ],
+     [
+      "Keep what they typed",
+      "error next to the field"
+     ]
+    ]
+   },
+   "visTop": 700,
+   "pills": [
+    {
+     "text": "📌 Save for your next signup review",
+     "y": 1640,
+     "at": 5.6,
+     "hot": true
+    }
+   ],
+   "vo": "The fix: ask less, allow autofill, keep their input.",
+   "minDur": 7.4
+  },
+  {
+   "dur": 4.4,
+   "bg": "blue",
+   "layout": "center",
+   "top": 700,
+   "lines": [
+    [
+     [
+      "Every field is a question",
+      ""
+     ]
+    ],
+    [
+     [
+      "before value.",
+      "accent"
+     ]
+    ]
+   ],
+   "pills": [
+    {
+     "text": "Send to whoever owns signup 🤝",
+     "y": 1250,
+     "at": 1.4,
+     "x": 180,
+     "rot": 2
+    }
+   ],
+   "vo": "Every field is a question.",
+   "minDur": 4.4
+  },
+  {
+   "dur": 6.4,
+   "bg": "light",
+   "layout": "center",
+   "brand": true,
+   "brandAt": 3.6,
+   "top": 250,
+   "lines": [
+    [
+     [
+      "full signup checklist",
+      ""
+     ]
+    ],
+    [
+     [
+      "link in bio",
+      "accent"
+     ]
+    ]
+   ],
+   "vo": "Full checklist? Link in bio.",
+   "visual": {
+    "type": "profile",
+    "handle": "mujeebtechnologies",
+    "bio": "SaaS websites that explain, rank and convert. Free video audit 👇 mujeebtechnologies.com",
+    "initial": "M"
+   },
+   "visTop": 600,
+   "minDur": 6.4
+  }
+ ]
+}

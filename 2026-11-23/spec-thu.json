@@ -1,0 +1,257 @@
+{
+ "theme": "global",
+ "style": "editorial",
+ "layout": "poster",
+ "transition": "slide",
+ "decor": "lines",
+ "bgx": "dots",
+ "title": "Security page before SOC 2",
+ "scenes": [
+  {
+   "dur": 5.0,
+   "bg": "light",
+   "lines": [
+    [
+     [
+      "No SOC 2 yet?",
+      ""
+     ]
+    ],
+    [
+     [
+      "Don't fake",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "the badge.",
+      "big"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "browser",
+    "url": "yourproduct.com/security",
+    "headline": "Enterprise-grade security",
+    "sub": "SOC 2 \u2713  ISO 27001 \u2713  GDPR certified \u2713",
+    "buttons": [
+     "Talk to sales"
+    ],
+    "bubbles": [
+     [
+      770,
+      140,
+      100
+     ],
+     [
+      880,
+      320,
+      70
+     ],
+     [
+      800,
+      500,
+      56
+     ]
+    ],
+    "bubbleAt": 1.4,
+    "thought": "Can I see the report?",
+    "thoughtAt": 2.4
+   },
+   "visTop": 820,
+   "shakeAt": 2.6,
+   "pills": [
+    {
+     "text": "B2B SaaS founders \ud83d\udc47",
+     "y": 140,
+     "at": 0,
+     "hot": true
+    }
+   ]
+  },
+  {
+   "dur": 5.6,
+   "bg": "light",
+   "layout": "stack",
+   "lines": [
+    [
+     [
+      "buyers' IT teams",
+      ""
+     ]
+    ],
+    [
+     [
+      "check.",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "title": "Don't write",
+     "items": [
+      "Badges you haven't earned",
+      "\"Military-grade encryption\"",
+      "\"GDPR certified\""
+     ]
+    },
+    "right": {
+     "title": "Write instead",
+     "items": [
+      "Where data is stored",
+      "What's encrypted, and how",
+      "Who can access it"
+     ]
+    },
+    "leftIcon": "\ud83d\udeab",
+    "rightIcon": "\u270d\ufe0f"
+   },
+   "visTop": 720
+  },
+  {
+   "dur": 6.4,
+   "bg": "light",
+   "layout": "stack",
+   "lines": [
+    [
+     [
+      "publish these",
+      ""
+     ]
+    ],
+    [
+     [
+      "4 things",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "list",
+    "at": 0.7,
+    "step": 1.2,
+    "items": [
+     [
+      "Hosting + data region",
+      "say where it lives today"
+     ],
+     [
+      "Encryption",
+      "in transit and at rest"
+     ],
+     [
+      "Subprocessors",
+      "who processes customer data"
+     ],
+     [
+      "Report a bug",
+      "a security contact that answers"
+     ]
+    ]
+   },
+   "visTop": 700,
+   "pills": [
+    {
+     "text": "\ud83d\udccc Save before your next security questionnaire",
+     "y": 1660,
+     "at": 5.0,
+     "hot": true
+    }
+   ]
+  },
+  {
+   "dur": 4.2,
+   "bg": "blue",
+   "layout": "center",
+   "top": 690,
+   "lines": [
+    [
+     [
+      "An honest",
+      ""
+     ]
+    ],
+    [
+     [
+      "\"not yet\"",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "beats a fake badge.",
+      ""
+     ]
+    ]
+   ],
+   "pills": [
+    {
+     "text": "Send to your co-founder \ud83e\udd1d",
+     "y": 1250,
+     "at": 1.4,
+     "x": 250,
+     "rot": -2
+    }
+   ]
+  },
+  {
+   "dur": 6.2,
+   "bg": "light",
+   "layout": "stack",
+   "brand": true,
+   "brandAt": 3.8,
+   "lines": [
+    [
+     [
+      "want your site checked?",
+      ""
+     ]
+    ],
+    [
+     [
+      "comment",
+      ""
+     ]
+    ],
+    [
+     [
+      "AUDIT",
+      "accent"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "comment",
+    "keyword": "AUDIT",
+    "sendAt": 1.6,
+    "noteAt": 2.2,
+    "note": [
+     [
+      [
+       "and I'll send a ",
+       ""
+      ],
+      [
+       "free",
+       "big"
+      ]
+     ],
+     [
+      [
+       "video review of ",
+       ""
+      ],
+      [
+       "your site.",
+       "big"
+      ]
+     ]
+    ]
+   },
+   "visTop": 800
+  }
+ ]
+}

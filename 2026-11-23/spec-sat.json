@@ -1,0 +1,320 @@
+{
+ "theme": "global",
+ "style": "dark",
+ "layout": "center",
+ "transition": "swipe",
+ "decor": "brackets",
+ "bgx": "split",
+ "title": "What my site tells Google",
+ "scenes": [
+  {
+   "dur": 5.6,
+   "bg": "light",
+   "top": 250,
+   "lines": [
+    [
+     [
+      "This week I read",
+      ""
+     ]
+    ],
+    [
+     [
+      "my own site",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "like Google does.",
+      ""
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "search",
+    "query": "mujeebtechnologies.com",
+    "resultsAt": 1.6,
+    "results": [
+     {
+      "title": "Pricing | Mujeeb Technologies",
+      "sub": "mujeebtechnologies.com \u203a pricing"
+     },
+     {
+      "title": "Services | Mujeeb Technologies",
+      "sub": "mujeebtechnologies.com \u203a services"
+     },
+     {
+      "title": "Our Work | Mujeeb Technologies",
+      "sub": "mujeebtechnologies.com \u203a projects"
+     }
+    ]
+   },
+   "visTop": 780,
+   "pills": [
+    {
+     "text": "Build in public \ud83d\udd27",
+     "y": 140,
+     "at": 0,
+     "hot": true
+    }
+   ],
+   "vo": "This week I read my own site like Google does.",
+   "minDur": 5.6
+  },
+  {
+   "dur": 6.4,
+   "bg": "light",
+   "top": 250,
+   "lines": [
+    [
+     [
+      "Myth #1",
+      "big"
+     ]
+    ],
+    [
+     [
+      "Google",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "works it out.",
+      ""
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "title": "Myth",
+     "items": [
+      "Google works out each page",
+      "Titles are a formality"
+     ]
+    },
+    "right": {
+     "title": "Fact",
+     "items": [
+      "Your title is often the link",
+      "Write it for the buyer"
+     ]
+    },
+    "leftIcon": "\ud83d\ude45",
+    "rightIcon": "\ud83d\udca1"
+   },
+   "visTop": 880,
+   "vo": "Myth one: Google works it out. Fact: your title is often the link.",
+   "minDur": 6.4
+  },
+  {
+   "dur": 6.0,
+   "bg": "light",
+   "top": 300,
+   "lines": [
+    [
+     [
+      "8 of my titles were just",
+      ""
+     ]
+    ],
+    [
+     [
+      "the page name.",
+      "accent"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "title": "Now",
+     "items": [
+      "Pricing",
+      "Services",
+      "Our Work"
+     ]
+    },
+    "right": {
+     "title": "Next",
+     "items": [
+      "SaaS website pricing",
+      "SaaS website builds",
+      "Real SaaS builds"
+     ]
+    },
+    "leftIcon": "\ud83d\ude2c",
+    "rightIcon": "\u270d\ufe0f"
+   },
+   "visTop": 880,
+   "shakeAt": 0.8,
+   "vo": "Eight of my titles were just the page name.",
+   "minDur": 6.0
+  },
+  {
+   "dur": 6.4,
+   "bg": "light",
+   "top": 280,
+   "lines": [
+    [
+     [
+      "Myth #2",
+      "big"
+     ]
+    ],
+    [
+     [
+      "sitemap dates",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "don't matter.",
+      ""
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "browser",
+    "url": "mujeebtechnologies.com/sitemap.xml",
+    "headline": "Every page: changed today",
+    "sub": "\u2026on every single build",
+    "buttons": [
+     "Fix: real dates only"
+    ],
+    "bubbles": [
+     [
+      770,
+      140,
+      100
+     ],
+     [
+      880,
+      320,
+      70
+     ],
+     [
+      800,
+      500,
+      56
+     ]
+    ],
+    "bubbleAt": 1.4,
+    "thought": "Everything changed? Again?",
+    "thoughtAt": 2.4
+   },
+   "visTop": 820,
+   "vo": "Myth two: sitemap dates don't matter. Mine said everything changed today.",
+   "minDur": 6.4
+  },
+  {
+   "dur": 6.0,
+   "bg": "light",
+   "top": 250,
+   "lines": [
+    [
+     [
+      "what",
+      ""
+     ],
+     [
+      " passed",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "list",
+    "at": 0.7,
+    "step": 1.4,
+    "items": [
+     [
+      "Crawlers allowed",
+      "and pointed to the sitemap"
+     ],
+     [
+      "Real blog dates",
+      "each post keeps its publish date"
+     ]
+    ]
+   },
+   "visTop": 620,
+   "pills": [
+    {
+     "text": "\ud83d\udccc Save: check your titles today",
+     "y": 1500,
+     "at": 3.8,
+     "hot": true
+    }
+   ],
+   "vo": "Passed: crawlers get in, blog dates are real.",
+   "minDur": 6.0
+  },
+  {
+   "dur": 4.2,
+   "bg": "blue",
+   "top": 700,
+   "lines": [
+    [
+     [
+      "Fix the boring stuff",
+      ""
+     ]
+    ],
+    [
+     [
+      "first.",
+      "accent"
+     ]
+    ]
+   ],
+   "pills": [
+    {
+     "text": "Share with your marketing lead \ud83e\udd1d",
+     "y": 1250,
+     "at": 1.3,
+     "x": 170,
+     "rot": 2
+    }
+   ],
+   "vo": "Fix the boring stuff first.",
+   "minDur": 4.2
+  },
+  {
+   "dur": 6.4,
+   "bg": "light",
+   "brand": true,
+   "brandAt": 3.8,
+   "top": 300,
+   "lines": [
+    [
+     [
+      "want this done",
+      ""
+     ]
+    ],
+    [
+     [
+      "on your site?",
+      "accent"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "browser",
+    "url": "mujeebtechnologies.com",
+    "headline": "Free video audit of your SaaS site",
+    "sub": "Send one link. Fixes ranked by impact.",
+    "buttons": [
+     "Get your free audit"
+    ]
+   },
+   "visTop": 720,
+   "vo": "Want this on your site? Free audit at mujeeb technologies dot com.",
+   "minDur": 6.4
+  }
+ ]
+}
