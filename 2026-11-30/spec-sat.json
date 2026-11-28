@@ -1,0 +1,366 @@
+{
+ "theme": "global",
+ "style": "bold",
+ "layout": "center",
+ "transition": "swipe",
+ "decor": "lines",
+ "bgx": "blobs",
+ "title": "What my links show",
+ "scenes": [
+  {
+   "dur": 6.2,
+   "bg": "light",
+   "top": 250,
+   "lines": [
+    [
+     [
+      "This week I checked",
+      ""
+     ]
+    ],
+    [
+     [
+      "my link previews",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "on my own site.",
+      ""
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "browser",
+    "url": "mujeebtechnologies.com/pricing",
+    "headline": "Pasted in a post…",
+    "sub": "which card shows up?",
+    "buttons": [
+     "Preview"
+    ],
+    "bubbles": [
+     [
+      770,
+      140,
+      100
+     ],
+     [
+      880,
+      320,
+      70
+     ],
+     [
+      800,
+      500,
+      56
+     ]
+    ],
+    "bubbleAt": 1.6,
+    "thought": "Is that the pricing page?",
+    "thoughtAt": 2.6
+   },
+   "visTop": 800,
+   "pills": [
+    {
+     "text": "Build in public 🔧",
+     "y": 140,
+     "at": 0,
+     "hot": true
+    }
+   ],
+   "vo": "I checked what my links show when shared.",
+   "minDur": 6.2
+  },
+  {
+   "dur": 6.2,
+   "bg": "light",
+   "top": 250,
+   "lines": [
+    [
+     [
+      "Blog posts:",
+      "big"
+     ]
+    ],
+    [
+     [
+      "pass",
+      "accent"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "list",
+    "at": 0.8,
+    "step": 1.4,
+    "items": [
+     [
+      "Own preview image",
+      "title + category on every post"
+     ],
+     [
+      "Light files",
+      "every card under 60 KB"
+     ]
+    ]
+   },
+   "visTop": 720,
+   "stickers": [
+    {
+     "emoji": "✅",
+     "x": 860,
+     "y": 330,
+     "size": 120,
+     "at": 0.6
+    },
+    {
+     "emoji": "🖼️",
+     "x": 540,
+     "y": 1350,
+     "size": 170,
+     "at": 3.6
+    }
+   ],
+   "vo": "Blog posts pass. Each has its own image.",
+   "minDur": 6.2
+  },
+  {
+   "dur": 7.2,
+   "bg": "light",
+   "top": 250,
+   "lines": [
+    [
+     [
+      "Main pages:",
+      "big"
+     ]
+    ],
+    [
+     [
+      "fix",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "title": "Shows now",
+     "items": [
+      "Pricing → homepage card",
+      "Services → homepage card",
+      "Audit page → homepage card"
+     ]
+    },
+    "right": {
+     "title": "Should show",
+     "items": [
+      "A pricing card",
+      "A services card",
+      "A free audit card"
+     ]
+    },
+    "leftIcon": "😬",
+    "rightIcon": "✅"
+   },
+   "visTop": 720,
+   "shakeAt": 1.0,
+   "vo": "Main pages fail. They all show the homepage card.",
+   "minDur": 7.2,
+   "stickers": [
+    {
+     "emoji": "🔧",
+     "x": 540,
+     "y": 1420,
+     "size": 160,
+     "at": 3.4
+    }
+   ]
+  },
+  {
+   "dur": 5.6,
+   "bg": "light",
+   "top": 520,
+   "lines": [
+    [
+     [
+      "and that default card",
+      ""
+     ]
+    ],
+    [
+     [
+      "still makes",
+      ""
+     ]
+    ],
+    [
+     [
+      "an old promise.",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "stickers": [
+    {
+     "emoji": "🗑️",
+     "x": 540,
+     "y": 1150,
+     "size": 230,
+     "at": 1.8
+    }
+   ],
+   "shakeAt": 1.6,
+   "vo": "And that card makes a promise I've dropped.",
+   "minDur": 5.6
+  },
+  {
+   "dur": 6.6,
+   "bg": "light",
+   "top": 250,
+   "lines": [
+    [
+     [
+      "the fix",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "in 3 steps",
+      "big"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "list",
+    "at": 0.8,
+    "step": 1.4,
+    "items": [
+     [
+      "One card per key page",
+      "pricing, services, free audit"
+     ],
+     [
+      "Use that page's words",
+      "not the homepage pitch"
+     ],
+     [
+      "Test before you post",
+      "paste it in a post inspector"
+     ]
+    ]
+   },
+   "visTop": 700,
+   "pills": [
+    {
+     "text": "📌 Save for your next launch",
+     "y": 1640,
+     "at": 5.2,
+     "hot": true
+    }
+   ],
+   "vo": "Fix: one card per page, in its own words.",
+   "minDur": 6.6
+  },
+  {
+   "dur": 4.6,
+   "bg": "blue",
+   "top": 680,
+   "lines": [
+    [
+     [
+      "Every share is",
+      ""
+     ]
+    ],
+    [
+     [
+      "an ad",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "you didn't design.",
+      ""
+     ]
+    ]
+   ],
+   "pills": [
+    {
+     "text": "Share with your marketer 🤝",
+     "y": 1250,
+     "at": 1.4,
+     "x": 220,
+     "rot": -2
+    }
+   ],
+   "vo": "Every share is an ad you didn't design.",
+   "minDur": 4.6
+  },
+  {
+   "dur": 6.8,
+   "bg": "light",
+   "layout": "stack",
+   "brand": true,
+   "brandAt": 4.2,
+   "lines": [
+    [
+     [
+      "want yours checked?",
+      ""
+     ]
+    ],
+    [
+     [
+      "comment",
+      ""
+     ]
+    ],
+    [
+     [
+      "AUDIT",
+      "accent"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "comment",
+    "keyword": "AUDIT",
+    "sendAt": 1.6,
+    "noteAt": 2.3,
+    "note": [
+     [
+      [
+       "I'll send a ",
+       ""
+      ],
+      [
+       "free",
+       "big"
+      ],
+      [
+       " video",
+       ""
+      ]
+     ],
+     [
+      [
+       "audit of ",
+       ""
+      ],
+      [
+       "your site.",
+       "big"
+      ]
+     ]
+    ]
+   },
+   "visTop": 800,
+   "vo": "Want yours checked? Comment audit.",
+   "minDur": 6.8
+  }
+ ]
+}

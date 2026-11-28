@@ -1,0 +1,251 @@
+{
+ "theme": "global",
+ "style": "dark",
+ "layout": "poster",
+ "transition": "slide",
+ "decor": "stars",
+ "bgx": "paper",
+ "title": "Use case pages",
+ "scenes": [
+  {
+   "dur": 5.2,
+   "bg": "light",
+   "lines": [
+    [
+     [
+      "Your use case page",
+      ""
+     ]
+    ],
+    [
+     [
+      "lists",
+      "big"
+     ],
+     [
+      " features.",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "Buyers came for a job.",
+      ""
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "browser",
+    "url": "yourproduct.com/use-cases/onboarding",
+    "headline": "Client Onboarding",
+    "sub": "Reporting · Automations · Permissions · Integrations",
+    "buttons": [
+     "Book a demo"
+    ],
+    "bubbles": [
+     [
+      770,
+      140,
+      100
+     ],
+     [
+      880,
+      320,
+      70
+     ],
+     [
+      800,
+      500,
+      56
+     ]
+    ],
+    "bubbleAt": 1.4,
+    "thought": "But how does it onboard MY clients?",
+    "thoughtAt": 2.4
+   },
+   "visTop": 880,
+   "shakeAt": 2.8,
+   "pills": [
+    {
+     "text": "B2B SaaS founders 👇",
+     "y": 140,
+     "at": 0,
+     "hot": true
+    }
+   ],
+   "minDur": 5.2
+  },
+  {
+   "dur": 7.0,
+   "bg": "light",
+   "layout": "stack",
+   "lines": [
+    [
+     [
+      "build it in",
+      ""
+     ]
+    ],
+    [
+     [
+      "5 blocks",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "list",
+    "at": 0.6,
+    "step": 1.0,
+    "items": [
+     [
+      "Headline",
+      "the job + the outcome"
+     ],
+     [
+      "The problem",
+      "how it's done today"
+     ],
+     [
+      "3–5 steps",
+      "a real screenshot for each"
+     ],
+     [
+      "Proof you have",
+      "only what you can show"
+     ],
+     [
+      "One CTA",
+      "trial or demo, matched to the buyer"
+     ]
+    ]
+   },
+   "visTop": 640,
+   "pills": [
+    {
+     "text": "📌 Save before you write the next one",
+     "y": 1720,
+     "at": 5.6,
+     "hot": true
+    }
+   ],
+   "minDur": 7.0
+  },
+  {
+   "dur": 5.6,
+   "bg": "light",
+   "layout": "stack",
+   "lines": [
+    [
+     [
+      "swap the industry name?",
+      ""
+     ]
+    ],
+    [
+     [
+      "thin content.",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "title": "Copy-paste pages",
+     "items": [
+      "Same page, new industry",
+      "Same screenshots",
+      "Same FAQ"
+     ]
+    },
+    "right": {
+     "title": "Pages that rank",
+     "items": [
+      "Their own workflow",
+      "Their own screenshots",
+      "Their own FAQ"
+     ]
+    },
+    "leftIcon": "📄",
+    "rightIcon": "✅"
+   },
+   "visTop": 740,
+   "minDur": 5.6,
+   "stickers": [
+    {
+     "emoji": "🧱",
+     "x": 540,
+     "y": 1380,
+     "size": 160,
+     "at": 2.0
+    }
+   ]
+  },
+  {
+   "dur": 4.2,
+   "bg": "blue",
+   "layout": "center",
+   "top": 690,
+   "lines": [
+    [
+     [
+      "3 strong pages",
+      ""
+     ]
+    ],
+    [
+     [
+      "beat",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "20 thin ones.",
+      ""
+     ]
+    ]
+   ],
+   "pills": [
+    {
+     "text": "Send to your marketing lead 🤝",
+     "y": 1250,
+     "at": 1.4,
+     "x": 190,
+     "rot": 2
+    }
+   ],
+   "minDur": 4.2
+  },
+  {
+   "dur": 6.0,
+   "bg": "light",
+   "layout": "stack",
+   "brand": true,
+   "brandAt": 3.8,
+   "lines": [
+    [
+     [
+      "template + SEO tips",
+      ""
+     ]
+    ],
+    [
+     [
+      "link in bio",
+      "accent"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "profile",
+    "handle": "mujeebtechnologies",
+    "bio": "SaaS websites that explain, rank and convert. Free video audit 👇 mujeebtechnologies.com",
+    "initial": "M"
+   },
+   "visTop": 600,
+   "minDur": 6.0
+  }
+ ]
+}

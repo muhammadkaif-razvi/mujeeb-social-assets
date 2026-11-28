@@ -1,0 +1,331 @@
+{
+ "theme": "global",
+ "style": "editorial",
+ "layout": "flip",
+ "transition": "zoom",
+ "decor": "dots",
+ "bgx": "mesh",
+ "title": "Switched to freemium",
+ "scenes": [
+  {
+   "dur": 6.0,
+   "bg": "light",
+   "lines": [
+    [
+     [
+      "We switched to",
+      ""
+     ]
+    ],
+    [
+     [
+      "freemium",
+      "accent-ul"
+     ]
+    ],
+    [
+     [
+      "last month.",
+      "big"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "chat",
+    "name": "Co-founder",
+    "status": "online",
+    "initial": "A",
+    "stamp": "MISMATCH",
+    "stampAt": 4.2,
+    "minH": 520,
+    "messages": [
+     {
+      "text": "Freemium is live 🎉",
+      "at": 0.5
+     },
+     {
+      "text": "Did the homepage change?",
+      "me": true,
+      "at": 1.7
+     },
+     {
+      "text": "…it still says \"Start your free trial\"",
+      "at": 3.0
+     }
+    ]
+   },
+   "shakeAt": 4.2,
+   "pills": [
+    {
+     "text": "SaaS founders 👇",
+     "y": 1140,
+     "at": 0,
+     "hot": true
+    }
+   ],
+   "textBottom": 400,
+   "vo": "We switched to freemium. The homepage still said trial.",
+   "minDur": 6.0
+  },
+  {
+   "dur": 6.5,
+   "bg": "light",
+   "lines": [
+    [
+     [
+      "The free plan",
+      ""
+     ]
+    ],
+    [
+     [
+      "hid",
+      "accent-ul"
+     ],
+     [
+      " in a footnote.",
+      "big"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "browser",
+    "url": "yourproduct.com/pricing",
+    "headline": "Start your free trial",
+    "sub": "*Free plan available, see terms",
+    "buttons": [
+     "Start trial"
+    ],
+    "bubbles": [
+     [
+      770,
+      140,
+      100
+     ],
+     [
+      880,
+      320,
+      70
+     ],
+     [
+      800,
+      500,
+      56
+     ]
+    ],
+    "bubbleAt": 1.2,
+    "thought": "So is it free or not?",
+    "thoughtAt": 2.2
+   },
+   "shakeAt": 2.6,
+   "textBottom": 400,
+   "stickers": [
+    {
+     "emoji": "🤔",
+     "x": 860,
+     "y": 1150,
+     "size": 110,
+     "at": 3.0
+    }
+   ],
+   "vo": "The free plan hid in a footnote.",
+   "minDur": 6.5
+  },
+  {
+   "dur": 6.5,
+   "bg": "light",
+   "lines": [
+    [
+     [
+      "Trial or freemium:",
+      ""
+     ]
+    ],
+    [
+     [
+      "different",
+      "accent"
+     ],
+     [
+      " words.",
+      "big"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "tabs",
+    "tabs": [
+     "Free trial",
+     "Freemium"
+    ],
+    "oldHeadline": "Start your free trial",
+    "chip": "model changed",
+    "headline": "Get started free",
+    "sub": "Free plan with clear limits. Upgrade when you grow.",
+    "button": "Get started free",
+    "toast": "Homepage CTA updated",
+    "toastAt": 3.6
+   },
+   "textBottom": 400,
+   "vo": "Each model needs different words on the page.",
+   "minDur": 6.5,
+   "stickers": [
+    {
+     "emoji": "✍️",
+     "x": 860,
+     "y": 1150,
+     "size": 110,
+     "at": 2.0
+    }
+   ]
+  },
+  {
+   "dur": 7.6,
+   "bg": "light",
+   "layout": "stack",
+   "lines": [
+    [
+     [
+      "update all",
+      ""
+     ]
+    ],
+    [
+     [
+      "4 places",
+      "accent-ul"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "list",
+    "at": 0.8,
+    "step": 1.3,
+    "items": [
+     [
+      "Every CTA",
+      "home, features, use cases, ads"
+     ],
+     [
+      "Pricing page",
+      "the free plan as a real column"
+     ],
+     [
+      "Signup form",
+      "card or no card? say it"
+     ],
+     [
+      "Emails + help docs",
+      "trial length and plan limits"
+     ]
+    ]
+   },
+   "visTop": 700,
+   "pills": [
+    {
+     "text": "📌 Save for your next pricing change",
+     "y": 1640,
+     "at": 6.0,
+     "hot": true
+    }
+   ],
+   "vo": "Update every button, the pricing page, signup and emails.",
+   "minDur": 7.6
+  },
+  {
+   "dur": 5.0,
+   "bg": "blue",
+   "layout": "center",
+   "top": 680,
+   "lines": [
+    [
+     [
+      "Before launch, search",
+      ""
+     ]
+    ],
+    [
+     [
+      "\"trial\"",
+      "accent"
+     ]
+    ],
+    [
+     [
+      "across the whole site.",
+      ""
+     ]
+    ]
+   ],
+   "pills": [
+    {
+     "text": "Send to whoever owns pricing 🤝",
+     "y": 1250,
+     "at": 1.6,
+     "x": 170,
+     "rot": -2
+    }
+   ],
+   "vo": "Then search your whole site for the word trial.",
+   "minDur": 5.0
+  },
+  {
+   "dur": 7.0,
+   "bg": "light",
+   "layout": "stack",
+   "brand": true,
+   "brandAt": 4.4,
+   "lines": [
+    [
+     [
+      "not sure your pages agree?",
+      ""
+     ]
+    ],
+    [
+     [
+      "comment",
+      ""
+     ]
+    ],
+    [
+     [
+      "AUDIT",
+      "accent"
+     ]
+    ]
+   ],
+   "visual": {
+    "type": "comment",
+    "keyword": "AUDIT",
+    "sendAt": 1.6,
+    "noteAt": 2.3,
+    "note": [
+     [
+      [
+       "and I'll record a ",
+       ""
+      ],
+      [
+       "free",
+       "big"
+      ]
+     ],
+     [
+      [
+       "video audit of ",
+       ""
+      ],
+      [
+       "your site.",
+       "big"
+      ]
+     ]
+    ]
+   },
+   "visTop": 800,
+   "vo": "Not sure your pages agree? Comment audit.",
+   "minDur": 7.0
+  }
+ ]
+}
